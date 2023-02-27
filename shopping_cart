@@ -71,7 +71,6 @@ def print_total():
         print(f"{item} x {item_quantity} @ ${item_price:.2f} each = ${item_total:.2f}")
     print(f"Total: ${total:.2f}")
     
-    
 menu = {          #menu dict -> 'key': {dict} -> {key:value pairs}
     # for size, price in burger
     'burger': {'double': 6.49, 'single': 4.99, 'junior': 3.99, 'kids': 2.49},
